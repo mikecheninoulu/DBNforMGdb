@@ -1,0 +1,132 @@
+1 try
+dbn_model1_2017-04-18-18-35-01.npy
+dbn_model3_2017-04-18-22-26-25.npy
+sample 15 18 24 45 53  for test
+
+Sample ID: Sample0015, score 0.180735
+Sample ID: Sample0018, score 0.148617
+Sample ID: Sample0024, score 0.167724
+Sample ID: Sample0045, score 0.120349
+Sample ID: Sample0053, score 0.125737
+
+The score for this prediction is 0.148632518212
+
+reason the neutral frame is selected well
+
+2 try
+
+neutral frame select modified
+last gesture's neutral frame is not selected
+
+Sample ID: Sample0015, score 0.232298
+Sample ID: Sample0018, score 0.208602
+Sample ID: Sample0024, score 0.287639
+Sample ID: Sample0045, score 0.011701
+Sample ID: Sample0053, score 0.144002
+The score for this prediction is 0.176848257849
+
+select two ambiguity out
+
+3 try 
+pure 1-16
+17-22 test 21 out
+Optimization complete with best validation score of 39.500000 %,with test performance 42.083333 %
+Sample ID: Sample0017, score 0.000292
+Sample ID: Sample0018, score 0.210891
+Sample ID: Sample0019, score 0.010388
+Sample ID: Sample0020, score 0.003315
+
+The score for this prediction is 0.056221361852
+And it seems over fitting
+
+Sample ID: Sample0017, score 0.000506
+Sample ID: Sample0018, score 0.072668
+Sample ID: Sample0019, score 0.030256
+Sample ID: Sample0020, score 0.030056
+Sample ID: Sample0022, score 0.577619
+The score for this prediction is 0.142221052737
+Sample ID: Sample0017, score 0.128823
+Sample ID: Sample0018, score 0.074297
+Sample ID: Sample0019, score 0.150649
+Sample ID: Sample0020, score 0.062850
+Sample ID: Sample0022, score 0.555249
+Sample ID: Sample0039, score 0.229724
+Sample ID: Sample0040, score 0.136320
+Sample ID: Sample0041, score 0.106682
+Sample ID: Sample0042, score 0.075619
+Sample ID: Sample0043, score 0.000000
+Sample ID: Sample0044, score 0.000000
+Sample ID: Sample0045, score 0.034919
+The score for this prediction is 0.129594345975
+4 try all these 6 files are fixed
+Sample ID: Sample0017, score 0.232442
+Sample ID: Sample0018, score 0.098052
+Sample ID: Sample0019, score 0.045166
+Sample ID: Sample0020, score 0.036518
+Sample ID: Sample0022, score 0.473062
+Sample ID: Sample0039, score 0.220985
+Sample ID: Sample0040, score 0.118306
+Sample ID: Sample0041, score 0.137778
+Sample ID: Sample0042, score 0.119392
+Sample ID: Sample0043, score 0.000000
+Sample ID: Sample0044, score 0.026386
+Sample ID: Sample0045, score 0.002889
+The score for this prediction is 0.125914767103
+5 neutral state is used
+Sample ID: Sample0017, score 0.236851
+Sample ID: Sample0018, score 0.000000
+Sample ID: Sample0019, score 0.068922
+Sample ID: Sample0020, score 0.067044
+Sample ID: Sample0022, score 0.000000
+Sample ID: Sample0039, score 0.208716
+Sample ID: Sample0040, score 0.364839
+Sample ID: Sample0041, score 0.114387
+Sample ID: Sample0042, score 0.196116
+Sample ID: Sample0043, score 0.000000
+Sample ID: Sample0044, score 0.045413
+Sample ID: Sample0045, score 0.016434
+The score for this prediction is 0.109893546026
+6 take less layers  0510 for all samples
+epoch 500, minibatch 358/358, validation error 36.032258 %test error of best model 35.571429 %, used time 2 secThe fine tuning code for file Step1_DBN_Structure2.py ran for 19.29m
+Optimization complete with best validation score of 34.403226 %,with test performance 36.357143 %
+50 18
+Optimization complete with best validation score of 35.080645 %,with test performance 35.357143 %
+91 27
+Sample ID: Sample0017, score 0.237948
+Sample ID: Sample0018, score 0.000000
+Sample ID: Sample0019, score 0.000000
+Sample ID: Sample0020, score 0.267974
+Sample ID: Sample0022, score 0.641669
+Sample ID: Sample0039, score 0.234141
+Sample ID: Sample0040, score 0.370967
+Sample ID: Sample0041, score 0.244966
+Sample ID: Sample0042, score 0.090249
+Sample ID: Sample0044, score 0.031444
+Sample ID: Sample0045, score 0.019266
+The score for this prediction is 0.167147633149
+7 all paste with active level
+Optimization complete with best validation score of 33.838710 %,with test performance 33.500000 %
+110.02 29.76
+Optimization complete with best validation score of 31.725806 %,with test performance 33.071429 %
+160 40
+Sample ID: Sample0017, score 0.236272
+#Sample ID: Sample0018, score 0.122365
+Sample ID: Sample0019, score 0.385150
+Sample ID: Sample0020, score 0.289019
+Sample ID: Sample0022, score 0.637227
+Sample ID: Sample0039, score 0.228475
+#Sample ID: Sample0040, score 0.000000
+Sample ID: Sample0041, score 0.150104
+Sample ID: Sample0042, score 0.164014
+Sample ID: Sample0044, score 0.397320
+Sample ID: Sample0045, score 0.240350
+The score for this prediction is 0.149746206740
+3dcnn
+Sample ID: Sample0041, score 0.144002
+Sample ID: Sample0042, score 0.232298
+Sample ID: Sample0044, score 0.192660
+Sample ID: Sample0045, score 0.240350
+
+8 all without var less
+Optimization complete with best validation score of 39.431034 %,with test performance 40.428571 %
+45 16
